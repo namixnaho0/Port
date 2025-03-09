@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa - Gu&iacutea Tur&iacutestica de Orizaba</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+<body>
+<header>
+<h1>Comentarios del Blog</h1>
+</header>
+<nav>
+        <ul>
+            <li><a href="Blog.html">Blog</a></li>
+            <li><a href="#entrada">Entradas</a></li>
+            <li><a href="comentarios.html">Comentarios</a></li>
+        </ul>
+    </nav>
+<main class= "ado">
+<section>
+<h2>Deja tu Comentario</h2>
+<form action="procesar_comentario.php" method="POST">
+<label for="nombre">Nombre:</label>
+<input type="text" id="nombre" name="nombre" required>
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required>
+<label for="comentario">Comentario:</label>
+<textarea id="comentario" name="comentario" rows="5" required></textarea>
+<button type="submit">Enviar Comentario</button>
+</form>
+</section>
+<section>
+<h2>Comentarios Recientes</h2>
+<div class="comentario">
+<p><strong>Juan P&eacuterez</strong> <em>01/03/2025</em></p>
+<p style=justify;>Excelente gu&iacutea tur&iacutestica, muy informativa y pr&aacutectica. Me encant&oacute la secci&oacuten de lugares de inter&eacutes.</p>
+</div>
+<div class="comentario">
+<p><strong>Mar&iacutea Garc&iacutea</strong> <em>28/02/2025</em></p>
+<p>Muy buen contenido, la informaci&oacuten es muy &uacutetil para planificar mi pr&oacutexima visita a la ciudad.</p>
+</div>
+<!-- Se pueden agregar más comentarios aquí -->
+</section>
+</main>
+<aside>
+<h3>Informaci&oacuten Adicional</h3>
+<p>Para m&aacutes detalles sobre la gu&iacutea tur&iacutestica, visita nuestra p&aacutegina de <a href="contacto.html">Contacto</a> o suscr&iacutebete al bolet&iacuten.</p>
+</aside>
+<footer>
+</footer>
+</body>
+</html>

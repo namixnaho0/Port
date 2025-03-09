@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 120vh;
+    font-size: 1.5rem;
+}
+
+header {
+    background-color: #8B0E22;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: center; 
+    font-size: 24px; 
+    margin-top: 20px;
+}
+
+/* Menu */
+nav {
+    background-color: #8B0E22;
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Contenido*/
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #981f34;
+    padding: 50px;
+}
+
+.left-section {
+    font-size: 1.5 rem;
+    width: 45%;
+    color: white;
+    padding: 20px;
+    text-align: justify;
+}
+
+/*imagen ddel inicio*/
+.right-section {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+}
+.right-section img {
+    max-width: 100%;
+    height: auto;
+}
+/* Seccion de cajitas*/
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.box {
+    width: 23%;
+    background: white;
+    padding: 15px;
+    border: 1px solid #ccc;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.box h3 {
+    font-size: 1rem;
+    color: #8B0E22;
+    margin: 10px 0;
+}
+
+.box p {
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.box a {
+    display: block;
+    margin-top: 10px;
+    padding: 5px;
+    background: #8B0E22;
+    color: white;
+    text-decoration: none;
+}
+
+/*Tablas*/
+
+table.lugares-turisticos {
+    width: 80%; 
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+.lugares-turisticos td {
+    border: 1px solid #8B0E22;
+    padding: 8px; 
+    text-align: left;
+    font-size: 14px; 
+}
+
+.lugares-turisticos th {
+    background-color: #8B0E22;
+    color: white;
+    text-align: center;
+    font-size: 16px; 
+}
+td img {
+    display: block;
+    margin: auto;
+    width: 180px;
+    height: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    }
+    form label {
+    margin-top: 10px;
+    }
+    form input, form textarea {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    }
+    form button {
+    margin-top: 15px;
+    padding: 10px;
+    background: #2980B9;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+    .comentario {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    }
+    .comentario:last-child {
+    border-bottom: none;
+    }
+    aside {
+    background: #e8f4f8;
+    padding: 10px;
+    }
+    footer p {
+    text-align: center;
+    font-size: 0.9em;
+    color: #555;
+    }
+
+    main.ado{
+        display: flex;
+        align-items: center;
+        justify-content: none;
+        background-color: #ffffff;
+        padding: 50px;
+    }
